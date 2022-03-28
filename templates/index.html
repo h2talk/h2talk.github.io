@@ -4,5 +4,14 @@
 
 {% block content %}
 <h1>Hello! &#x1f44b;</h1>
+
+<div class="input-group mb-3">
+    <select class="form-select" id="stationSelect" onchange="location = this.value;" aria-label="Select a station">
+    <!-- <option selected>Choose...</option> -->
+{% for station_info in stations %}
+        <option value="s/{{station_info['slug']}}/">{{station_info['name']}}</option>
+{% endfor %}
+    </select>
+</div>
 {% endblock %}
 

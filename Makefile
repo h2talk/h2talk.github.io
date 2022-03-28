@@ -15,5 +15,6 @@ update-requirements:
 
 clean:
 	$(RM) index.html
+	$(RM) -r s/
 
 .PHONY: all clean install update-requirements

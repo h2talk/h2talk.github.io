@@ -1,0 +1,313 @@
+[
+  {
+    "slug": "aliso-viejo",
+    "name": "Aliso Viejo",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "anaheim",
+    "name": "Anaheim",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "baldwin-park",
+    "name": "Baldwin Park",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "csula",
+    "name": "Cal State LA",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "campbell-hamilton",
+    "name": "Campbell - East Hamilton Ave",
+    "region": "norcal",
+    "channel": ""
+  },
+  {
+    "slug": "campbell-winchester",
+    "name": "Campbell - Winchester",
+    "region": "norcal",
+    "channel": ""
+  },
+  {
+    "slug": "citrus-heights",
+    "name": "Citrus Heights",
+    "region": "norcal",
+    "channel": ""
+  },
+  {
+    "slug": "concord",
+    "name": "Concord",
+    "region": "norcal",
+    "channel": ""
+  },
+  {
+    "slug": "costa-mesa-bristol",
+    "name": "Costa Mesa - Bristol St",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "costa-mesa-harbor",
+    "name": "Costa Mesa - Harbor Blvd",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "del-mar",
+    "name": "Del Mar",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "diamond-bar",
+    "name": "Diamond Bar",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "emeryville",
+    "name": "Emeryville",
+    "region": "norcal",
+    "channel": ""
+  },
+  {
+    "slug": "fairfax-la",
+    "name": "Fairfax-LA",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "fountain-valley",
+    "name": "Fountain Valley",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "fremont",
+    "name": "Fremont",
+    "region": "norcal",
+    "channel": ""
+  },
+  {
+    "slug": "harris-ranch",
+    "name": "Harris Ranch",
+    "channel": ""
+  },
+  {
+    "slug": "hawaiian-gardens",
+    "name": "Hawaiian Gardens",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "hayward",
+    "name": "Hayward",
+    "region": "norcal",
+    "channel": ""
+  },
+  {
+    "slug": "hollywood",
+    "name": "Hollywood",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "irvine-uci",
+    "name": "Irvine - UCI",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "la-canada-flintridge",
+    "name": "La Canada Flintridge",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "lake-forest",
+    "name": "Lake Forest",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "tahoe-truckee",
+    "name": "Lake Tahoe-Truckee",
+    "region": "norcal",
+    "channel": ""
+  },
+  {
+    "slug": "lawndale",
+    "name": "Lawndale",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "long-beach",
+    "name": "Long Beach",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "lax",
+    "name": "LAX",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "mill-valley",
+    "name": "Mill Valley",
+    "region": "norcal",
+    "channel": ""
+  },
+  {
+    "slug": "mission-hills",
+    "name": "Mission Hills",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "oakland-grand",
+    "name": "Oakland - Grand Ave",
+    "region": "norcal",
+    "channel": ""
+  },
+  {
+    "slug": "orange",
+    "name": "Orange",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "palo-alto",
+    "name": "Palo Alto",
+    "region": "norcal",
+    "channel": ""
+  },
+  {
+    "slug": "placentia",
+    "name": "Placentia",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "playa-del-rey",
+    "name": "Playa Del Rey",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "sacramento",
+    "name": "Sacramento",
+    "region": "norcal",
+    "channel": ""
+  },
+  {
+    "slug": "sf-mission",
+    "name": "San Francisco - Mission St",
+    "region": "norcal",
+    "channel": ""
+  },
+  {
+    "slug": "sf-third",
+    "name": "San Francisco - Third St",
+    "region": "norcal",
+    "channel": ""
+  },
+  {
+    "slug": "san-jose",
+    "name": "San Jose",
+    "region": "norcal",
+    "channel": ""
+  },
+  {
+    "slug": "san-juan-capistrano",
+    "name": "San Juan Capistrano",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "san-ramon",
+    "name": "San Ramon",
+    "region": "norcal",
+    "channel": ""
+  },
+  {
+    "slug": "santa-barbara",
+    "name": "Santa Barbara",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "santa-monica",
+    "name": "Santa Monica",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "saratoga",
+    "name": "Saratoga",
+    "region": "norcal",
+    "channel": ""
+  },
+  {
+    "slug": "sherman-oaks",
+    "name": "Sherman Oaks",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "south-pasadena",
+    "name": "South Pasadena",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "south-san-francisco",
+    "name": "South San Francisco",
+    "region": "norcal",
+    "channel": ""
+  },
+  {
+    "slug": "studio-city",
+    "name": "Studio City",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "sunnyvale",
+    "name": "Sunnyvale",
+    "region": "norcal",
+    "channel": ""
+  },
+  {
+    "slug": "thousand-oaks",
+    "name": "Thousand Oaks",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "torrance",
+    "name": "Torrance",
+    "region": "socal",
+    "channel": ""
+  },
+  {
+    "slug": "west-sacramento",
+    "name": "West Sacramento",
+    "region": "norcal",
+    "channel": ""
+  },
+  {
+    "slug": "woodland-hills",
+    "name": "Woodland Hills",
+    "region": "socal",
+    "channel": ""
+  }
+]
