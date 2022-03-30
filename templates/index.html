@@ -2,16 +2,38 @@
 
 {% block title %}h2talk{% endblock %}
 
-{% block content %}
-<h1>Hello! &#x1f44b;</h1>
+{% block navitems %}
+<li class="nav-item">
+  <a class="nav-link active" aria-current="page" href="/">Home</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="/s">Stations</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="/r">Regions</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="/v">Vehicles</a>
+</li>
+{% endblock %}
 
-<div class="input-group mb-3">
-    <select class="form-select" id="stationSelect" onchange="location = this.value;" aria-label="Select a station">
-    <!-- <option selected>Choose...</option> -->
+{% block content %}
+<div class="row justify-content-md-center mt-5">
+  <div class="col-sm">
+    <h1>Hello! &#x1f44b;</h1>
+  </div>
+</div>
+
+<div class="row justify-content-md-center mt-5">
+  <div class="col-sm">
+
+    <select class="form-select form-select-lg my-3" id="stationSelect" onchange="location = this.value;" aria-label="Select a station">
 {% for station_info in stations %}
-        <option value="s/{{station_info['slug']}}/">{{station_info['name']}}</option>
+      <option value="s/{{station_info['slug']}}/">{{station_info['name']}}</option>
 {% endfor %}
     </select>
+
+  </div>
 </div>
 {% endblock %}
 

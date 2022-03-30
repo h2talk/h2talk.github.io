@@ -2,9 +2,32 @@
 
 {% block title %}h2talk - {{name}}{% endblock %}
 
-{% block content %}
-<h1>Hello! &#x1f44b;</h1>
+{% block navitems %}
+<li class="nav-item">
+  <a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link active" aria-current="page" href="/s">Stations ({{name}})</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="/r">Regions</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="/v">Vehicles</a>
+</li>
+{% endblock %}
 
-<p>Join channel <b>#{{slug}}</b></p>
+{% block content %}
+<div class="row justify-content-md-center mt-5">
+  <div class="col-sm">
+    <h1>Hello! &#x1f44b;</h1>
+  </div>
+</div>
+
+<div class="row justify-content-md-center mt-5">
+  <div class="col-sm">
+    <p>Join channel <b>#{{slug}}</b></p>
+  </div>
+</div>
 {% endblock %}
 

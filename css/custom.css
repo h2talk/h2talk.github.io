@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
 
+/*
+https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=03A9F4&secondary.color=E91E63
+*/
+
 body {
     font-family: Quicksand, sans-serif;
     background-color: #03a9f4; /* material light blue 500 */
