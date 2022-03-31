@@ -36,16 +36,30 @@ def main():
 
     with open('stations.json', 'r') as fd:
         stations = json.load(fd)
-    
+    with open('regions.json') as fd:
+        regions = json.load(fd)
+    with open('vehicles.json') as fd:
+        vehicles = json.load(fd)
+
     g = Generator()
 
     # Index
-    g.generate('index.html', 'index.html', stations=stations)
+    g.generate('index.html', 'index.html', info=stations, item="station", subdir="s")
 
     # Station pages
-    for station_info in stations:
-        g.generate(f"s/{station_info['slug']}/index.html", 'station.html', **station_info)
+    g.generate('s/index.html', 'stations.html', info=stations, item="station", subdir="s")
+    for info in stations:
+        g.generate(f"s/{info['slug']}/index.html", 'channel.html', **info)
 
+    # Region pages
+    g.generate('r/index.html', 'regions.html', info=regions, item="region", subdir="r")
+    for info in regions:
+        g.generate(f"r/{info['slug']}/index.html", 'channel.html', **info)
+
+    # Vehicle pages
+    g.generate('v/index.html', 'vehicles.html', info=vehicles, item="vehicle", subdir="v")
+    for info in vehicles:
+        g.generate(f"v/{info['slug']}/index.html", 'channel.html', **info)
 
 if __name__ == '__main__':
     main()

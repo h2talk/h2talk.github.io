@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}h2talk - Vehicles{% endblock %}
+
+{% block navitems %}
+<li class="nav-item">
+  <a class="nav-link" href="/">Home</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="/s">Stations</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link" href="/r">Regions</a>
+</li>
+<li class="nav-item">
+  <a class="nav-link active" aria-current="page" href="/v">Vehicles</a>
+</li>
+{% endblock %}
+
+{% block content %}
+{% include 'list.html' %}
+{% endblock %}

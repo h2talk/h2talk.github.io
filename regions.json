@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "norcal",
+    "name": "Northern California",
+    "channel": ""
+  },
+  {
+    "slug": "socal",
+    "name": "Southern California",
+    "channel": ""
+  },
+  {
+    "slug": "bc",
+    "name": "British Columbia",
+    "channel": ""
+  }
+]
