@@ -18,10 +18,15 @@
 {% endblock %}
 
 {% block content %}
-{% block listheader %}
-<h2>Looking to chat with FCEV drivers in your area?</h2>
-<h3>Find your region here</h3>
-{% endblock %}
+<div class="row justify-content-md-center mt-5">
+  <div class="col-sm">
+    <h2>Looking to chat with FCEV drivers in your area?</h2>
+  </div>
+</div>
 
-{% include 'list.html' %}
+<div class="row justify-content-md-center mt-1">
+  <div class="col-sm">
+    {% include 'list.html' %}
+  </div>
+</div>
 {% endblock %}

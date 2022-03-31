@@ -18,9 +18,15 @@
 {% endblock %}
 
 {% block content %}
-{% block listheader %}
-<h2>Looking to chat about a specific fueling station?</h2>
-<h3>Find your station here</h3>
-{% endblock %}
-{% include 'list.html' %}
+<div class="row justify-content-md-center mt-5">
+  <div class="col-sm">
+    <h2>Looking to chat about a specific fueling station?</h2>
+  </div>
+</div>
+
+<div class="row justify-content-md-center mt-1">
+  <div class="col-sm">
+    {% include 'list.html' %}
+  </div>
+</div>
 {% endblock %}
