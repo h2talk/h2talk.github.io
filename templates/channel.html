@@ -20,14 +20,20 @@
 {% block content %}
 <div class="row justify-content-md-center mt-5">
   <div class="col-sm">
-    <h1>Hello! &#x1f44b;</h1>
+    <h1>Talk with fellow FCEV drivers about {{name}}</h1>
   </div>
 </div>
 
 <div class="row justify-content-md-center mt-5">
   <div class="col-sm">
-    <p>Join channel <b>#{{slug}}</b></p>
+    <h2>
+      <button type="button" class="btn btn-primary">
+        Join channel <b>#{{ slug }}</b> on Discord
+      </button>
+    </h2>
   </div>
 </div>
+
+{% include 'about-discord.html' %}
 {% endblock %}
 

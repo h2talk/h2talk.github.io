@@ -10,3 +10,7 @@ body {
     color: #fff;
     text-align: center;
 }
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #e91e63 !important; /* material pink 500 */
+}

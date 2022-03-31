@@ -1,7 +1,9 @@
 <div class="row justify-content-md-center mt-5">
   <div class="col-sm">
 
-    <select class="form-select form-select-lg my-3" id="stationSelect" onchange="location = this.value;" aria-label="Select a station">
+{% block listheader %}{% endblock %}
+
+    <select class="form-select form-select-lg" id="stationSelect" onchange="location = this.value;" aria-label="Select a station">
       <option value="" disabled selected>Select a {{item}}</option>
 {% for info in items %}
       <option value="{{ rel_path_to_root(destination_path) }}/{{ subdir }}/{{ info['slug'] }}/">{{info['name']}}</option>

@@ -44,20 +44,20 @@ def main():
     g = Generator()
 
     # Index
-    g.generate('index.html', 'index.html', info=stations, item="station", subdir="s")
+    g.generate('index.html', 'index.html', items=stations, item="station", subdir="s")
 
     # Station pages
-    g.generate('s/index.html', 'stations.html', info=stations, item="station", subdir="s")
+    g.generate('s/index.html', 'stations.html', items=stations, item="station", subdir="s")
     for info in stations:
         g.generate(f"s/{info['slug']}/index.html", 'channel.html', **info)
 
     # Region pages
-    g.generate('r/index.html', 'regions.html', info=regions, item="region", subdir="r")
+    g.generate('r/index.html', 'regions.html', items=regions, item="region", subdir="r")
     for info in regions:
         g.generate(f"r/{info['slug']}/index.html", 'channel.html', **info)
 
     # Vehicle pages
-    g.generate('v/index.html', 'vehicles.html', info=vehicles, item="vehicle", subdir="v")
+    g.generate('v/index.html', 'vehicles.html', items=vehicles, item="vehicle", subdir="v")
     for info in vehicles:
         g.generate(f"v/{info['slug']}/index.html", 'channel.html', **info)
 

@@ -8,13 +8,16 @@ install: python-dist
 
 python-dist: requirements.txt
 	python3 -m venv $@
-	source $@/bin/activate && pip3 install -r requirements.txt
+	source python-dist/bin/activate && pip3 install -r requirements.txt
 
 update-requirements:
-	source $@/bin/activate && pip3 freeze > requirements.txt
+	source python-dist/bin/activate && pip3 freeze > requirements.txt
+
+test:
+	source python-dist/bin/activate && python3 -m http.server
 
 clean:
 	$(RM) index.html
 	$(RM) -r s/
 
-.PHONY: all clean install update-requirements
+.PHONY: all clean install update-requirements test
