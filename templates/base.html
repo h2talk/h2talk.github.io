@@ -33,6 +33,12 @@
     </div>
   </nav>
 
+  <nav aria-label="breadcrumb" class="mt-1 breadcrumb-nav">
+    <ol class="breadcrumb">
+{% block breadcrumbs %}{% endblock %}
+    </ol>
+  </nav>
+
   <div class="container-md">
 {% block content %}{% endblock %}
   </div>

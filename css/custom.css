@@ -6,11 +6,28 @@ https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=0
 
 body {
     font-family: Quicksand, sans-serif;
-    background-color: #03a9f4; /* material light blue 500 */
-    color: #fff;
-    text-align: center;
+    background-color: #03a9f4 !important; /* material light blue 500 */
+    color: #fff !important;
+    text-align: center !important;
 }
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: #e91e63 !important; /* material pink 500 */
+    border-color: #e91e63 !important; /* material pink 500 */
+    color: #fff !important;
+}
+
+.breadcrumb a {
+    color: rgba(255,255,255,.55);
+    text-decoration: none;
+}
+
+.breadcrumb > .active a {
+    color: #fff;
+    text-decoration: bold;
+}
+
+.breadcrumb-nav {
+    padding-left: var(--bs-gutter-x,.75rem);
+    padding-right: var(--bs-gutter-x,.75rem);
 }

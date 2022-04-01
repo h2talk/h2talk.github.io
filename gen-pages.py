@@ -49,17 +49,17 @@ def main():
     # Station pages
     g.generate('s/index.html', 'stations.html', items=stations, item="station", subdir="s")
     for info in stations:
-        g.generate(f"s/{info['slug']}/index.html", 'channel.html', **info)
+        g.generate(f"s/{info['slug']}/index.html", 'channel.html', **info, subdir="s", parent="Stations")
 
     # Region pages
     g.generate('r/index.html', 'regions.html', items=regions, item="region", subdir="r")
     for info in regions:
-        g.generate(f"r/{info['slug']}/index.html", 'channel.html', **info)
+        g.generate(f"r/{info['slug']}/index.html", 'channel.html', **info, subdir="r", parent="Regions")
 
     # Vehicle pages
     g.generate('v/index.html', 'vehicles.html', items=vehicles, item="vehicle", subdir="v")
     for info in vehicles:
-        g.generate(f"v/{info['slug']}/index.html", 'channel.html', **info)
+        g.generate(f"v/{info['slug']}/index.html", 'channel.html', **info, subdir="v", parent="Vehicles")
 
 if __name__ == '__main__':
     main()
