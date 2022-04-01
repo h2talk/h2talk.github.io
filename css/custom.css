@@ -17,6 +17,12 @@ body {
     color: #fff !important;
 }
 
+.btn-outline-light:hover {
+    background-color: rgb(255,255,255,.22) !important;
+    border-color: #fff !important;
+    color: #fff !important;
+}
+
 .breadcrumb a {
     color: rgba(255,255,255,.55);
     text-decoration: none;
