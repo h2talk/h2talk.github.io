@@ -44,22 +44,46 @@ def main():
     g = Generator()
 
     # Index
-    g.generate('index.html', 'index.html', items=stations, item="station", subdir="s")
+    g.generate('index.html', 'index.html',
+        items=stations,
+        item="station",
+        subdir="s")
 
     # Station pages
-    g.generate('s/index.html', 'stations.html', items=stations, item="station", subdir="s")
+    g.generate('s/index.html', 'stations.html',
+        items=stations,
+        item="station",
+        subdir="s")
     for info in stations:
-        g.generate(f"s/{info['slug']}/index.html", 'channel.html', **info, subdir="s", parent="Stations")
+        g.generate(f"s/{info['slug']}/index.html", 'channel.html',
+            **info,
+            subdir="s",
+            parent="Stations",
+            header=f"Chat with fellow drivers about the {info['name']} station")
 
     # Region pages
-    g.generate('r/index.html', 'regions.html', items=regions, item="region", subdir="r")
+    g.generate('r/index.html', 'regions.html',
+        items=regions,
+        item="region",
+        subdir="r")
     for info in regions:
-        g.generate(f"r/{info['slug']}/index.html", 'channel.html', **info, subdir="r", parent="Regions")
+        g.generate(f"r/{info['slug']}/index.html", 'channel.html',
+        **info,
+        subdir="r",
+        parent="Regions",
+        header=f"Chat with fellow drivers in {info['name']}")
 
     # Vehicle pages
-    g.generate('v/index.html', 'vehicles.html', items=vehicles, item="vehicle", subdir="v")
+    g.generate('v/index.html', 'vehicles.html',
+        items=vehicles,
+        item="vehicle",
+        subdir="v")
     for info in vehicles:
-        g.generate(f"v/{info['slug']}/index.html", 'channel.html', **info, subdir="v", parent="Vehicles")
+        g.generate(f"v/{info['slug']}/index.html", 'channel.html',
+            **info,
+            subdir="v",
+            parent="Vehicles",
+            header=f"Chat with fellow {info['name']} drivers")
 
 if __name__ == '__main__':
     main()
