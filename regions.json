@@ -2,16 +2,16 @@
   {
     "slug": "norcal",
     "name": "Northern California",
-    "channel": ""
+    "channel": "https://discord.gg/6RNcJCbxpm"
   },
   {
     "slug": "socal",
     "name": "Southern California",
-    "channel": ""
+    "channel": "https://discord.gg/UgWPH97uMG"
   },
   {
     "slug": "bc",
     "name": "British Columbia",
-    "channel": ""
+    "channel": "https://discord.gg/a5FVVQNkxy"
   }
 ]
