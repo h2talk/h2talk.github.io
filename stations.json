@@ -3,91 +3,91 @@
     "slug": "aliso-viejo",
     "name": "Aliso Viejo",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/XT8JmHwbxR"
   },
   {
     "slug": "anaheim",
     "name": "Anaheim",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/g9sCrgUAJB"
   },
   {
     "slug": "baldwin-park",
     "name": "Baldwin Park",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/bDC9U5WqK8"
   },
   {
     "slug": "csula",
     "name": "Cal State LA",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/E65Akb64nM"
   },
   {
     "slug": "campbell-hamilton",
     "name": "Campbell - East Hamilton Ave",
     "region": "norcal",
-    "channel": ""
+    "channel": "https://discord.gg/FpFhkfP6M8"
   },
   {
     "slug": "campbell-winchester",
     "name": "Campbell - Winchester",
     "region": "norcal",
-    "channel": ""
+    "channel": "https://discord.gg/kW3pCvsdQP"
   },
   {
     "slug": "citrus-heights",
     "name": "Citrus Heights",
     "region": "norcal",
-    "channel": ""
+    "channel": "https://discord.gg/Eukem5QcHe"
   },
   {
     "slug": "concord",
     "name": "Concord",
     "region": "norcal",
-    "channel": ""
+    "channel": "https://discord.gg/BmgXgnVEtE"
   },
   {
     "slug": "costa-mesa-bristol",
     "name": "Costa Mesa - Bristol St",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/FbWFTvrwCW"
   },
   {
     "slug": "costa-mesa-harbor",
     "name": "Costa Mesa - Harbor Blvd",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/x6JTZSubKz"
   },
   {
     "slug": "del-mar",
     "name": "Del Mar",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/pYTwC8swPr"
   },
   {
     "slug": "diamond-bar",
     "name": "Diamond Bar",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/hYNC2FyqDd"
   },
   {
     "slug": "emeryville",
     "name": "Emeryville",
     "region": "norcal",
-    "channel": ""
+    "channel": "https://discord.gg/PZarFmz7D3"
   },
   {
     "slug": "fairfax-la",
     "name": "Fairfax-LA",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/DXpUNPDh6g"
   },
   {
     "slug": "fountain-valley",
     "name": "Fountain Valley",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/QtEvvpsjCe"
   },
   {
     "slug": "fremont",
@@ -98,216 +98,216 @@
   {
     "slug": "harris-ranch",
     "name": "Harris Ranch",
-    "channel": ""
+    "channel": "https://discord.gg/p4Qw9Wduh8"
   },
   {
     "slug": "hawaiian-gardens",
     "name": "Hawaiian Gardens",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/BUPRkATAb4"
   },
   {
     "slug": "hayward",
     "name": "Hayward",
     "region": "norcal",
-    "channel": ""
+    "channel": "https://discord.gg/NRjhHgfSpk"
   },
   {
     "slug": "hollywood",
     "name": "Hollywood",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/gwgheq4QVt"
   },
   {
     "slug": "irvine-uci",
     "name": "Irvine - UCI",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/5GvhFeYUp5"
   },
   {
     "slug": "la-canada-flintridge",
     "name": "La Canada Flintridge",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/q5AwVGV2m4"
   },
   {
     "slug": "lake-forest",
     "name": "Lake Forest",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/dn5ws2w3a4"
   },
   {
     "slug": "tahoe-truckee",
     "name": "Lake Tahoe-Truckee",
     "region": "norcal",
-    "channel": ""
+    "channel": "https://discord.gg/H43MZ5dMfJ"
   },
   {
     "slug": "lawndale",
     "name": "Lawndale",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/yTW6fPueTF"
   },
   {
     "slug": "long-beach",
     "name": "Long Beach",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/UQhevDgTSf"
   },
   {
     "slug": "lax",
     "name": "LAX",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/QazeddPbpd"
   },
   {
     "slug": "mill-valley",
     "name": "Mill Valley",
     "region": "norcal",
-    "channel": ""
+    "channel": "https://discord.gg/2xF2qh5seK"
   },
   {
     "slug": "mission-hills",
     "name": "Mission Hills",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/A9cYqWA5jf"
   },
   {
     "slug": "oakland-grand",
     "name": "Oakland - Grand Ave",
     "region": "norcal",
-    "channel": ""
+    "channel": "https://discord.gg/Y9pHmzZntB"
   },
   {
     "slug": "orange",
     "name": "Orange",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/UHhG2PEBMt"
   },
   {
     "slug": "palo-alto",
     "name": "Palo Alto",
     "region": "norcal",
-    "channel": ""
+    "channel": "https://discord.gg/CF5yuzuN26"
   },
   {
     "slug": "placentia",
     "name": "Placentia",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/W5KtMWcqHt"
   },
   {
     "slug": "playa-del-rey",
     "name": "Playa Del Rey",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/rn8acGG9RP"
   },
   {
     "slug": "sacramento",
     "name": "Sacramento",
     "region": "norcal",
-    "channel": ""
+    "channel": "https://discord.gg/dD7RbP5DcK"
   },
   {
     "slug": "sf-mission",
     "name": "San Francisco - Mission St",
     "region": "norcal",
-    "channel": ""
+    "channel": "https://discord.gg/2D2MhR3T79"
   },
   {
     "slug": "sf-third",
     "name": "San Francisco - Third St",
     "region": "norcal",
-    "channel": ""
+    "channel": "https://discord.gg/kY2feDpwTF"
   },
   {
     "slug": "san-jose",
     "name": "San Jose",
     "region": "norcal",
-    "channel": ""
+    "channel": "https://discord.gg/Bmdz9nKF"
   },
   {
     "slug": "san-juan-capistrano",
     "name": "San Juan Capistrano",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/yDkVbspjs9"
   },
   {
     "slug": "san-ramon",
     "name": "San Ramon",
     "region": "norcal",
-    "channel": ""
+    "channel": "https://discord.gg/qQqKrVAQta"
   },
   {
     "slug": "santa-barbara",
     "name": "Santa Barbara",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/59MbKQnzTK"
   },
   {
     "slug": "santa-monica",
     "name": "Santa Monica",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/vRmFEm2E67"
   },
   {
     "slug": "saratoga",
     "name": "Saratoga",
     "region": "norcal",
-    "channel": ""
+    "channel": "https://discord.gg/KTA8rVMeMT"
   },
   {
     "slug": "sherman-oaks",
     "name": "Sherman Oaks",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/PF2FtThNFC"
   },
   {
     "slug": "south-pasadena",
     "name": "South Pasadena",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/GrN2fdGWGe"
   },
   {
     "slug": "south-san-francisco",
     "name": "South San Francisco",
     "region": "norcal",
-    "channel": ""
+    "channel": "https://discord.gg/hQq2At25Pq"
   },
   {
     "slug": "studio-city",
     "name": "Studio City",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/w4QVjd7ryj"
   },
   {
     "slug": "sunnyvale",
     "name": "Sunnyvale",
     "region": "norcal",
-    "channel": ""
+    "channel": "https://discord.gg/6P2G7fMPsF"
   },
   {
     "slug": "thousand-oaks",
     "name": "Thousand Oaks",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/5CyyUp3K5d"
   },
   {
     "slug": "torrance",
     "name": "Torrance",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/5NHj44uDyK"
   },
   {
     "slug": "west-sacramento",
     "name": "West Sacramento",
     "region": "norcal",
-    "channel": ""
+    "channel": "https://discord.gg/HrCtmR42xb"
   },
   {
     "slug": "woodland-hills",
     "name": "Woodland Hills",
     "region": "socal",
-    "channel": ""
+    "channel": "https://discord.gg/9ArKpjSanu"
   }
 ]
